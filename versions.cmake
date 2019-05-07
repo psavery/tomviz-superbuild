@@ -32,6 +32,10 @@ add_revision(hdf5
   URL     "https://www.paraview.org/files/dependencies/hdf5-1.10.3.tar.bz2"
   URL_MD5 56c5039103c51a40e493b43c504ce982)
 
+add_revision(cython
+  URL "https://www.tomviz.org/files/Cython-0.29.7.tar.gz"
+  URL_MD5 24f6a7e0e6691fbecf5880f38cdf880e)
+
 if (WIN32)
   if (64bit_build)
     add_revision(ffmpeg
