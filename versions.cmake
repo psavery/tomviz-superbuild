@@ -123,6 +123,10 @@ add_revision(lapack
     URL "https://www.tomviz.org/files/scipy-1.0.0-python3.6.tar.gz"
     URL_HASH "SHA512=b76907671015e23f3f2837c165eb055533dd9ea58cf36f82af49607012ddf44ed761fab697d3a86819faac7479a1ea3b55e91066c86974ae55b3679c81cfb870")
 
+add_revision(pkgconfig
+  URL     "https://files.pythonhosted.org/packages/6e/a9/ff67ef67217dfdf2aca847685fe789f82b931a6957a3deac861297585db6/pkgconfig-1.5.1.tar.gz"
+  URL_MD5 9f9cdb224ec0a1e59efcc7cac4b91972)
+
 add_revision(h5py
   URL     "https://files.pythonhosted.org/packages/43/27/a6e7dcb8ae20a4dbf3725321058923fec262b6f7835179d78ccc8d98deec/h5py-2.9.0.tar.gz"
   URL_MD5 d5cdd7248398d8f66119b27171ebf4e1)
